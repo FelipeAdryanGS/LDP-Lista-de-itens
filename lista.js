@@ -38,7 +38,7 @@ function CriarBotaoDeletar(){ //Criando o botão Deletar
     botao_deletar.classList.add("btn", "btn-danger")
     botao_deletar.innerHTML = "Deletar"
     botao_deletar.type = "button"
-    botao_deletar.addEventListener("click", DeletarItem);
+    botao_deletar.addEventListener("click", DeletarItem)
 
     return botao_deletar
 }
@@ -64,8 +64,8 @@ function Submit(){
 
     document.getElementById("item").value = ""
 }
-
-
+// Eu não estava conseguindo fazer de jeito nenhum professora , então eu pedi ajuda para o Leonardo.
+// Ele me ajudou a fazer o código. Depois de muito tempo me explicando , consegui finalmente entender.
 
 
 
